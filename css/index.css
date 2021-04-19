@@ -1,0 +1,25 @@
+.list-groupe {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.groupe-item {
+  margin-right: 35px;
+}
+
+.groupe-item a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.groupe-item a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.top-header {
+  background-image: url(../img/bg_top_header.jpg);
+  background-position: bottom;
+}
