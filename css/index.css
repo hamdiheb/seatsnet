@@ -8,10 +8,15 @@
   margin-right: 35px;
 }
 
-.groupe-item a{
+.header-pub,
+.groupe-item a {
   text-decoration: none;
   color: white;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-pub {
+  font-size: 14px;
 }
 
 .groupe-item a:hover {
@@ -21,5 +26,59 @@
 
 .top-header {
   background-image: url(../img/bg_top_header.jpg);
-  background-position: bottom;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.f-control {
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  border: 6px solid #00e1e7;
+  outline: none;
+  border-radius: 7px;
+}
+
+.f-control:hover {
+  border-color: blue;
+}
+
+.recently-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.recently-view {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.top-events {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top : 10px;
+  text-align: center;
+}
+
+
+.component {
+  background-image: url(../img/component/Untitled-1_luah-4g.jpg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-size: 100%;
+}
+
+.component p {
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 100px;
 }
