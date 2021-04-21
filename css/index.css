@@ -190,6 +190,87 @@
   border-radius: 20px;
 }
 
+.destination-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.grid-destination {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.destination-title-top {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.destination-title {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding-top: 280px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.destination-item-1 {
+  background-image: url(../img/destination/top_dest_berlin.jpg);
+  border-radius: 20px;
+  background-position: center;
+  margin-left: 5px;
+}
+
+.destination-item-2 {
+  background-image: url(../img/destination/top_dest_london.jpg);
+  border-radius: 20px;
+  background-position: center;
+  margin-left: 5px;
+}
+
+.destination-item-3 {
+  background-image: url(../img/destination/top_dest_tokio.jpg);
+  border-radius: 20px;
+  background-position: center;
+  margin-left: 5px;
+}
+
+.destination-item-4 {
+  background-image: url(../img/destination/turin.jpg);
+  border-radius: 20px;
+  background-position: center;
+  margin-left: 5px;
+}
+
+.destination-item-5 {
+  background-image: url(../img/destination/top_dest_paris.jpg);
+  border-radius: 20px;
+  background-position: center;
+  margin-left: 5px;
+}
+
+.destination-item-6 {
+  background-image: url(../img/destination/top_dest_new_york.jpg);
+  border-radius: 20px;
+  background-position: center;
+  margin-left: 5px;
+}
+
+.destination-item-7 {
+  background-image: url(../img/destination/top_dest_amsterdam.jpg);
+  border-radius: 20px;
+  background-position: center;
+  margin-left: 5px;
+}
+
+.destination-item-8 {
+  background-image: url(../img/destination/top_dest_spain.jpg);
+  border-radius: 20px;
+  background-position: center;
+  margin-left: 5px;
+}
+
 @media screen and (min-width: 760px) {
   .grid {
     display: grid;
