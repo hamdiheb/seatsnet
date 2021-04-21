@@ -63,7 +63,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 28px;
   font-weight: 700;
-  margin-top : 10px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -190,11 +190,6 @@
   border-radius: 20px;
 }
 
-.destination-title {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-}
-
 .grid-destination {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -206,6 +201,7 @@
   font-weight: bold;
   font-size: 25px;
 }
+
 .destination-title {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -295,7 +291,7 @@
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
     justify-content: center;
   }
-  
+
   .grid-club {
     border-radius: 20px;
   }
