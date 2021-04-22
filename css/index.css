@@ -1,7 +1,6 @@
 .list-groupe {
   display: flex;
   list-style: none;
-  margin-top: 20px;
 }
 
 .groupe-item {
@@ -33,8 +32,7 @@
 .f-control {
   width: 100%;
   height: 30px;
-  padding: 20px;
-  border: 6px solid #00e1e7;
+  border: 3px solid #00e1e7;
   outline: none;
   border-radius: 7px;
 }
@@ -54,7 +52,6 @@
   font-size: 14px;
   color: white;
   border: 1px solid white;
-  padding: 5px;
   border-radius: 5px;
 }
 
@@ -192,7 +189,7 @@
 
 .grid-destination {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 50% 50%;
 }
 
 .destination-title-top {
@@ -267,6 +264,26 @@
   margin-left: 5px;
 }
 
+.footer {
+  background-image: url(../img/bg_top_header.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer-article-title {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-article-info {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
 @media screen and (min-width: 760px) {
   .grid {
     display: grid;
@@ -294,5 +311,10 @@
 
   .grid-club {
     border-radius: 20px;
+  }
+
+  .grid-destination {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
   }
 }
